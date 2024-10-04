@@ -1,0 +1,34 @@
+site_url: "https://maxm04.github.io/IAW_UD01_EXAMEN/"
+repo_url: "https://github.com/maxm04/IAW_UD01_EXAMEN/"
+site_name: EXAMEN UD01 GITHUB,MKDOCS,MARKDOWN Y GITHUB PAGES
+
+nav:
+  - Conseguir y crear proyectos: proyectos.md
+  - Comandos básicos: basicos.md
+  - Ramas y fusiones: ramas.md
+  - Compartir y actualizar proyectos: compartir.md
+  - Inspeccionar y comparar: inspeccionar.md
+
+theme:
+  name: material
+  logo: images/logo_ieseljust.png
+  favicon: images/logo_ieseljust.png
+  palette:
+    primary: 'red'
+    accent: 'yellow'
+
+markdown_extensions:
+  - admonition  
+  - toc:
+      permalink: true  
+  - pymdownx.highlight  
+  - pymdownx.superfences  
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.magiclink
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
